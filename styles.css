@@ -1,0 +1,88 @@
+body{
+       font-family: Arial, sans-serif;
+       margin: 0px;
+       padding: 0px;
+       background-color: #34495e; /* Cambie el color de fondo a un tono gris oscuro */
+       color: #ecf0f1; /* Cambie el color del texto a blanco */
+   }
+
+   header {
+    background-color: #e74c3c; /* Rojo oscuro para el encabezado */
+    text-align: center;
+    padding: 20px;
+   }
+
+   h1 {
+    color: #ffffff;
+    font-size: 3em;
+    margin: 0;
+   }
+
+   nav {
+    background-color: #3498db; /* Azul claro para la barra de navegacion */
+    padding: 10px;
+   }
+
+   nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   }
+
+   nav ul li {
+    display: inline;
+    margin-right: 20px;
+   }
+
+   nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+   }
+
+   main {
+    padding: 20px;
+   }
+
+   section {
+   background-color: #2ecc71; /* Verde Claro para las secciones */
+   padding: 20px;
+   margin: 20px 0;
+   }
+
+   section h2 {
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 10px;
+   }
+
+   section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #ffffff;
+   }
+
+   section img {
+   max-width: 100%;
+   height: auto;
+   border-radius: 8px; /* Agregue esquinas redondeadas a las imagenes */
+   margin-top: 10px;
+   }
+
+   section ol,
+   section ul {
+    font-size: 1.em;
+    color: #ffffff;
+    margin-top: 10px;
+   }
+
+   footer {
+    background-color: #333;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   }
